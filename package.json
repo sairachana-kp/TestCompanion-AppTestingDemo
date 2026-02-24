@@ -4,8 +4,8 @@
   "description": "BrowserStack Appium tests",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "test:local": "mocha",
+    "test": "mocha 'test/specs/**/*.test.js'",
+    "test:local": "mocha 'test/specs/**/*.test.js'",
     "test:skyscanner": "mocha test/specs/Skyscanner/*.js",
     "test:bluesky": "mocha test/specs/Bluesky/*.js"
   },
